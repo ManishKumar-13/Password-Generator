@@ -1,0 +1,96 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+  color: #333;
+}
+
+.app {
+  max-width: 25rem;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+@keyframes rainbow {
+  0% { color: #ff0000; }
+  20% { color: #ff8000; }
+  40% { color: #ffff00; }
+  60% { color: #00ff00; }
+  80% { color: #0000ff; }
+  100% { color: #8000ff; }
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  animation: rainbow 5s infinite;
+}
+
+
+.options {
+  margin-bottom: 1.5rem;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.options input[type="number"],
+.options input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.checkboxes {
+  margin-top: 0.5rem;
+}
+
+.checkboxes label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="number"] {
+  display: block;
+  width: calc(100% - 1.5rem);
+  padding: 0.75rem;
+  margin: 0 auto;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background: linear-gradient(45deg, #4caf50, #8bc34a);
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #8bc34a, #4caf50);
+}
+
+.password {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  word-wrap: break-word;
+} 
